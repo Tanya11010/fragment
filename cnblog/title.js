@@ -20,13 +20,13 @@ function generateBlogTitle() {
   for (var i=0; i < 50; i++) {
     var node=document.createElement("div");
     node.className='text';
-    node.innerHTML='静默虚空';
+    node.innerHTML='小良子Ya';
     root.appendChild(node);
   }
   document.getElementById("blogTitle").appendChild(root);
 
   var subTitle=document.createElement("h2");
-  subTitle.innerHTML='Talk is cheap, show me the code.';
+  subTitle.innerHTML='Step by step.';
   document.getElementById("blogTitle").appendChild(subTitle);
 }
 
